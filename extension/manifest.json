@@ -1,0 +1,46 @@
+{
+    "manifest_version": 3,
+    "name": "BrowseGPT",
+    "version": "1.1.0",
+    "description": "AI-powered website navigation assistant with instant site access and smart element highlighting",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content-script.js"],
+        "run_at": "document_idle",
+        "all_frames": false
+      }
+    ],
+    "web_accessible_resources": [
+      {
+        "resources": ["icons/*.png"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      },
+      "default_title": "Toggle BrowseGPT"
+    }
+  }
