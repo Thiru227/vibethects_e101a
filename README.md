@@ -1,6 +1,7 @@
-# Universal AI Website Assistant
+# BrowseGPT - Universal AI Website Assistant
 
 A Chrome browser extension that provides AI-powered navigation and accessibility assistance for **any website** without prior configuration or site-specific code.
+Built in 24 hrs in a hackathon by Amrita University
 
 ## 🎯 Core Concept
 
