@@ -374,7 +374,6 @@ Memory is:
 ### Demo Flow Example
 
 **Website: GitHub Repository Page**
-
 1. **User opens assistant**
    - System extracts visible DOM
    - No prior knowledge of GitHub
@@ -557,6 +556,8 @@ MIT License - feel free to use and modify
 ## 🤝 Contributing
 
 This is a hackathon project designed for educational purposes. Contributions welcome!
+
+**Contribution by Praveen Raj**
 
 ## ⚠️ Disclaimer
 
